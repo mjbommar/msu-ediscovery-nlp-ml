@@ -21,6 +21,7 @@ jupyter-contrib-nbextensions = "^0.5.1"
 transformers = {extras = ["flax", "tf-gpu", "torch-gpu"], version = "^4.24.0"}
 tensorflow = "^2.10.0"
 jupyterlab = "^3.5.0"
+nbconvert = {extras = ["webpdf"], version = "^7.2.3"}
 
 
 [tool.poetry.group.dev.dependencies]

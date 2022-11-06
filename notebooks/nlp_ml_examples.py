@@ -27,7 +27,7 @@ import sklearn.linear_model
 import sklearn.tree
 
 # create a basic spacy pipeline with sm
-nlp = spacy.load("en_core_web_trf")
+nlp = spacy.load("en_core_web_sm")
 
 
 def get_doc(text: str):
